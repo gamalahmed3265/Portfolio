@@ -4,7 +4,7 @@ export const Qualification = () => {
     const [toogleState, setToggleState] = useState(1);
 
     const toggleTap = (index) => {
-        setToggleState(index);
+        setToggleState(index); 
     }
 
     return (<section className='section qualification' id='portfolio'>
