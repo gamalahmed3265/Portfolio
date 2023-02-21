@@ -7,7 +7,7 @@ export const Frontend = () => {
             <div className='skills_box'>
                 <div className="skills_group">
                     <div className="skills_data">
-                        <i class="fa-regular fa-circle-check"></i>
+                        <i className="fa-regular fa-circle-check"></i>
                         <div>
                             <div className="skills_name">HTML</div>
                             <div className="skills_level">Basic</div>
@@ -15,7 +15,7 @@ export const Frontend = () => {
                     </div>
 
                     <div className="skills_data">
-                        <i class="fa-regular fa-circle-check"></i>
+                        <i className="fa-regular fa-circle-check"></i>
                         <div>
                             <div className="skills_name">CSS</div>
                             <div className="skills_level">Advanced</div>
@@ -23,7 +23,7 @@ export const Frontend = () => {
                     </div>
 
                     <div className="skills_data">
-                        <i class="fa-regular fa-circle-check"></i>
+                        <i className="fa-regular fa-circle-check"></i>
                         <div>
                             <div className="skills_name">JavaScript</div>
                             <div className="skills_level">Intermediate</div>
@@ -33,7 +33,7 @@ export const Frontend = () => {
                 </div>
                 <div className="skills_group">
                     <div className="skills_data">
-                        <i class="fa-regular fa-circle-check"></i>
+                        <i className="fa-regular fa-circle-check"></i>
                         <div>
                             <div className="skills_name">Bootstrap</div>
                             <div className="skills_level">Intermediate</div>
@@ -41,7 +41,7 @@ export const Frontend = () => {
                     </div>
 
                     <div className="skills_data">
-                        <i class="fa-regular fa-circle-check"></i>
+                        <i className="fa-regular fa-circle-check"></i>
                         <div>
                             <div className="skills_name">Git</div>
                             <div className="skills_level">Intermediate</div>
@@ -49,7 +49,7 @@ export const Frontend = () => {
                     </div>
 
                     <div className="skills_data">
-                        <i class="fa-regular fa-circle-check"></i>
+                        <i className="fa-regular fa-circle-check"></i>
                         <div>
                             <div className="skills_name">React</div>
                             <div className="skills_level">Intermediate</div>

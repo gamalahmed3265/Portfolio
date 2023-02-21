@@ -39,7 +39,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">Web design</h3>
                             <span className="qualification__subtitle">Span -Instite</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus"></i>
+                                <i className="fa-regular fa-calendar-minus"></i>
                                 2023 Present
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">Art Director</h3>
                             <span className="qualification__subtitle">Span -Instite</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus"></i>
+                                <i className="fa-regular fa-calendar-minus"></i>
                                 2023 Present
                             </div>
                         </div>
@@ -69,7 +69,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">Web Development</h3>
                             <span className="qualification__subtitle">Span -Instite</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus">
+                                <i className="fa-regular fa-calendar-minus">
                                 </i>
                                 2023 Present
                             </div>
@@ -89,7 +89,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">UX Expert</h3>
                             <span className="qualification__subtitle">Span -Instite</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus"></i>
+                                <i className="fa-regular fa-calendar-minus"></i>
                                 2023 Present
                             </div>
                         </div>
@@ -104,7 +104,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">Web design</h3>
                             <span className="qualification__subtitle">Span -Instite</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus"></i>
+                                <i className="fa-regular fa-calendar-minus"></i>
                                 2023 Present
                             </div>
                         </div>
@@ -123,7 +123,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">Art Director</h3>
                             <span className="qualification__subtitle">Span -Instite</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus"></i>
+                                <i className="fa-regular fa-calendar-minus"></i>
                                 2023 Present
                             </div>
                         </div>
@@ -134,7 +134,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">Web Development</h3>
                             <span className="qualification__subtitle">Span -Instite</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus">
+                                <i className="fa-regular fa-calendar-minus">
                                 </i>
                                 2023 Present
                             </div>
@@ -154,7 +154,7 @@ export const Qualification = () => {
                             <h3 className="qualification__title">UX Expert</h3>
                             <span className="qualification__subtitle">Egypt</span>
                             <div className="qualification__calender">
-                                <i class="fa-regular fa-calendar-minus"></i>
+                                <i className="fa-regular fa-calendar-minus"></i>
                                 2023 Present
                             </div>
                         </div>
