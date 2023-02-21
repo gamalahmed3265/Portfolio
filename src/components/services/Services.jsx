@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./services.css"
 export const Services = () => {
-        const [toogleState, setToggleState] = useState(1);
+        const [toogleState, setToggleState] = useState(0);
 
         const toggleTap = (index) => {
             setToggleState(index);
