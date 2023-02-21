@@ -25,7 +25,7 @@ export const Services = () => {
                         onClick={() => toggleTap(0)}
                     >
                         <div className="service_model-content">
-                            <i class="fa-solid fa-xmark service_model-icon-close" onClick={() => toggleTap(0)}></i>
+                            <i className="fa-solid fa-xmark service_model-icon-close" onClick={() => toggleTap(0)}></i>
                             <h3 className='service_model-title'>Product Designer</h3>
                             <p className='service_model-descriptions'>
                                 Service with more than 3 years of experience.Providing
@@ -33,31 +33,31 @@ export const Services = () => {
                             </p>
                             <ul className='service_model-services grid'>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I develop the user interface.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         Web page development.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I create ux element interactions.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I position your company brand.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         Design and mockups of products for companies.
                                     </p>
@@ -68,7 +68,7 @@ export const Services = () => {
                 </div>
                 <div className="service__content">
                     <div>
-                        <i class="fa-solid fa-arrows-left-right service__icon"></i>
+                        <i className="fa-solid fa-arrows-left-right service__icon"></i>
                         <h3 className='service__title'>Ui/Ux <br /> Designer</h3>
                     </div>
                     <span className='service_button' onClick={() => toggleTap(2)}>
@@ -80,7 +80,7 @@ export const Services = () => {
                         onClick={() => toggleTap(0)}
                     >
                         <div className="service_model-content">
-                            <i class="fa-solid fa-xmark service_model-icon-close" onClick={() => toggleTap(0)}></i>
+                            <i className="fa-solid fa-xmark service_model-icon-close" onClick={() => toggleTap(0)}></i>
                             <h3 className='service_model-title'>Ui/Ux Designer</h3>
                             <p className='service_model-descriptions'>
                                 Service with more than 3 years of experience.Providing
@@ -88,31 +88,31 @@ export const Services = () => {
                             </p>
                             <ul className='service_model-services grid'>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I develop the user interface.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         Web page development.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I create ux element interactions.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I position your company brand.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         Design and mockups of products for companies.
                                     </p>
@@ -123,7 +123,7 @@ export const Services = () => {
                 </div>
                 <div className="service__content">
                     <div>
-                        <i class="fa-solid fa-pen-to-square service__icon"></i>
+                        <i className="fa-solid fa-pen-to-square service__icon"></i>
                         <h3 className='service__title'>Visual <br /> Designer</h3>
                     </div>
                     <span className='service_button' onClick={() => toggleTap(3)}>
@@ -135,7 +135,7 @@ export const Services = () => {
                         onClick={() => toggleTap(0)}
                     >
                         <div className="service_model-content">
-                            <i class="fa-solid fa-xmark service_model-icon-close" onClick={() => toggleTap(0)}></i>
+                            <i className="fa-solid fa-xmark service_model-icon-close" onClick={() => toggleTap(0)}></i>
                             <h3 className='service_model-title'>Visual Designer</h3>
                             <p className='service_model-descriptions'>
                                 Service with more than 3 years of experience.Providing
@@ -143,31 +143,31 @@ export const Services = () => {
                             </p>
                             <ul className='service_model-services grid'>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I develop the user interface.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         Web page development.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I create ux element interactions.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         I position your company brand.
                                     </p>
                                 </li>
                                 <li className='service_model-service'>
-                                    <i class="fa-regular fa-circle-check service_model-icon"></i>
+                                    <i className="fa-regular fa-circle-check service_model-icon"></i>
                                     <p className='service_model-info'>
                                         Design and mockups of products for companies.
                                     </p>
