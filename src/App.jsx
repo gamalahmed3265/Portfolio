@@ -7,6 +7,7 @@ import { Skills } from './components/skills/Skills';
 import { Services } from './components/services/Services';
 import { Qualification } from './components/qualification/Qualification';
 import Testimonial from './components/testimonial/Testimonial';
+import { Contect } from './components/contect/Contect';
 const App=()=>(
     <>
         <Header/>
@@ -17,7 +18,7 @@ const App=()=>(
             <Services/>
             <Qualification/>
             <Testimonial/>
-            <Contec/>
+            <Contect/>
         </main>
     </>
 );

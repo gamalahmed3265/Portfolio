@@ -14,7 +14,7 @@ import "./testimonial.css";
 import { Data } from "./Data.jsx";
 
 export default function Testimonial() {
-    return (<section className='section qualification' id='portfolio'>
+    return (<section className='section qualification'>
         <h2 className='section__title'>My clients say</h2>
         <span className="section__subtitle">Testimonial</span>
 
