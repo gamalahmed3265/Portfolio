@@ -17,6 +17,7 @@ const App=()=>(
             <Services/>
             <Qualification/>
             <Testimonial/>
+            <Contec/>
         </main>
     </>
 );
