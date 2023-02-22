@@ -10,6 +10,7 @@ import Testimonial from './components/testimonial/Testimonial';
 import { Contect } from './components/contect/Contect';
 import { Footer } from './components/footer/Footer';
 import { Scrollup } from './components/scrollup/scrollup';
+import { Works } from './components/works/Works';
 const App=()=>(
     <>
         <Header/>
@@ -19,6 +20,7 @@ const App=()=>(
             <Skills/>
             <Services/>
             <Qualification/>
+            <Works/>
             <Testimonial/>
             <Contect/>
         </main>
