@@ -9,6 +9,7 @@ import { Qualification } from './components/qualification/Qualification';
 import Testimonial from './components/testimonial/Testimonial';
 import { Contect } from './components/contect/Contect';
 import { Footer } from './components/footer/Footer';
+import { Scrollup } from './components/scrollup/scrollup';
 const App=()=>(
     <>
         <Header/>
@@ -20,8 +21,9 @@ const App=()=>(
             <Qualification/>
             <Testimonial/>
             <Contect/>
-            <Footer/>
         </main>
+        <Footer/>
+        <Scrollup/>
     </>
 );
 
