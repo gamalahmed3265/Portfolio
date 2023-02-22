@@ -8,6 +8,7 @@ import { Services } from './components/services/Services';
 import { Qualification } from './components/qualification/Qualification';
 import Testimonial from './components/testimonial/Testimonial';
 import { Contect } from './components/contect/Contect';
+import { Footer } from './components/footer/Footer';
 const App=()=>(
     <>
         <Header/>
@@ -19,6 +20,7 @@ const App=()=>(
             <Qualification/>
             <Testimonial/>
             <Contect/>
+            <Footer/>
         </main>
     </>
 );
