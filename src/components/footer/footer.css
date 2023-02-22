@@ -37,6 +37,19 @@
 }
 .footer__social-icon{
     background-color: var(--title-color-dark);
+    transition: 0.3s;
+}
+.footer__social-icon:hover{
+    transform: scale(2);
+}
+.footer__social-icon:first-child:hover{
+    background-color: #4267B2;
+}
+.footer__social-icon:nth-child(2):hover{
+    background-color: #1DA1F2;
+}
+.footer__social-icon:last-child:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .footer__copy{
     display: block;

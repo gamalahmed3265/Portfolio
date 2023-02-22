@@ -31,7 +31,7 @@ export const Footer = () => {
                     <a href="https://twitter.com/GamalAh74468190" className='footer__social-icon' target='_blank'>
                         <i className="fa-brands fa-twitter"></i>
                     </a>
-                    <a href="https://wa.me/+201210023987" className='footer__social-icon' target='_blank'>
+                    <a href="https://www.instagram.com/gamal_ahmed___/?next=%2F" className='footer__social-icon' target='_blank'>
                         <i className="fa-brands fa-instagram"></i>
                     </a>
                 </div>
