@@ -9,7 +9,7 @@ export const Social = () => {
             <a href="https://www.linkedin.com/in/gamal-ahmed-1526281b8/" className='home_social-icon' target='_blank'>
                 <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://wa.me/01272643265" className='home_social-icon' target='_blank'>
+            <a href="https://wa.me/+201210023987" className='home_social-icon' target='_blank'>
                 <i className="fa-brands fa-whatsapp"></i>
             </a>
         </div>
