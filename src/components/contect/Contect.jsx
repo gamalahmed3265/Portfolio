@@ -2,6 +2,7 @@ import React from 'react'
 import Send from '../../assets/send'
 import "./contect.css"
 export const Contect = () => {
+    
     return (<section className='section contact' id='contact'>
         <h2 className='section__title'>Get in touch</h2>
         <span className="section__subtitle">Contact Me</span>
@@ -58,7 +59,7 @@ export const Contect = () => {
                                 placeholder='Insert your email'
                             />
                         </div>
-                        <div className="contact__form-div">
+                        <div className="contact__form-div contact__form-area">
                             <label className='contact__form-tag'>Projects</label>
                             <textarea rows="10" cols="30" name='project' type="text" className='contact__form-input'
                                 placeholder='Insert your Name'
