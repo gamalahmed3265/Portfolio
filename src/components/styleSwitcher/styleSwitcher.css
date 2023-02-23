@@ -1,0 +1,90 @@
+.style__switcher{
+    position: fixed;
+    top: -100%;
+    right: 2.5rem;
+    z-index: var( --z-tooltip);
+    width: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.4s;
+    
+}
+.style__switcher-active{
+    top: 5rem;
+}
+.style__switcher .icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: max-content;
+    text-align: center;
+}
+.style__switcher .icons i{
+    font-size: 1rem;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--container-color);
+    background-color: var(--title-color);
+    opacity: 0.8;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    transition: 0.4s;
+}
+
+.style__switcher-toggle:hover,
+.style__switcher .icons i:hover{
+    background-color: var(--title-color-dark);
+}
+.style__switcher-toggle{
+    background-color: var(--title-color);
+    padding: 0.75rem;
+    transition: 0.3s;
+    border-radius: 1rem;
+    display: none;
+    margin-left: 0.5rem;
+}
+.style__switcher-toggle-active{
+    display: block;
+}
+.style__switcher-conainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.style__switcher-title{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color: var(--container-color);
+    text-transform: capitalize;
+}
+.style__switcher .colors{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.4rem;
+}
+.style__switcher .colors span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-trash{
+    cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+    .style__switcher{
+        right: 1.5rem;
+        padding: 0.25rem 0.4rem;
+    }
+    .style__switcher-icon{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .style__switcher{
+        right: 1rem;
+    }
+}

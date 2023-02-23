@@ -11,6 +11,7 @@ import { Contect } from './components/contect/Contect';
 import { Footer } from './components/footer/Footer';
 import { Scrollup } from './components/scrollup/scrollup';
 import { Works } from './components/works/Works';
+import { StyleSwitcher } from './components/styleSwitcher/StyleSwitcher';
 const App=()=>(
     <>
         <Header/>
@@ -26,6 +27,7 @@ const App=()=>(
         </main>
         <Footer/>
         <Scrollup/>
+        <StyleSwitcher/>
     </>
 );
 

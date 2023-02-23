@@ -52,6 +52,13 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
+[data-theme="dark"]{
+  --title-color: #E5E5CB;
+  --title-color-dark: #F5E9CF;
+  --text-color: #D5CEA3;
+  --container-color: #3C2A21;
+  --body-color: #1A120B;
+}
 
 /* Responsive typography */
 @media screen and (max-width: 992px) {
