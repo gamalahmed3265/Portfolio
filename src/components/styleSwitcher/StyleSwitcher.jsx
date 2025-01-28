@@ -68,11 +68,11 @@ export const StyleSwitcher = () => {
 
     const [toggleActive, setToggleActive] = useState(false);
     window.addEventListener("scroll", whenScrollSwitcher);
-    if (window.localStorage.length>0) {
+    if (window.localStorage.length > 0) {
         getDataFromlocalStorage();
     }
     document.querySelectorAll(".style__switcher-conainer span").forEach((e => {
-        e.style.background =`${e.getAttribute("data-color")}`;
+        e.style.background = `${e.getAttribute("data-color")}`;
     }))
 
     return (
@@ -141,7 +141,7 @@ export const StyleSwitcher = () => {
                 <div className='style__switcher-conainer'>
                     <h4 className='style__switcher-title'>Remove All Data</h4>
                     <div className="colors colors-text">
-                        <i class="fa-solid fa-trash" onClick={()=>removeAllData()}></i>
+                        <i className="fa-solid fa-trash" onClick={() => removeAllData()}></i>
                     </div>
                 </div>
             </div>

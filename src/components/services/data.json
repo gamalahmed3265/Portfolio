@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "service__title": "MERN Stack Development",
+      "descriptions": "",
+      "service_info": [
+        "Proficient in MongoDB for database design, querying, and management.",
+        "Skilled in Express.js for building RESTful APIs and backend services.",
+        "Expertise in React.js for building dynamic, responsive, and scalable front-end applications.",
+        "Strong understanding of Node.js for server-side development and event-driven programming.",
+        "Experience with state management libraries like Redux or Context API.",
+        "Knowledge of JWT for authentication and authorization.",
+        "Familiarity with Mongoose for MongoDB object modeling.",
+        "Experience in deploying MERN applications on platforms like Heroku, Vercel, or AWS."
+      ]
+    },
+    {
+      "service__title": "Flutter Development",
+      "descriptions": "",
+      "service_info": [
+        "Proficient in building cross-platform mobile applications using Flutter and Dart.",
+        "Experience with Flutter Widgets for creating responsive and visually appealing UIs.",
+        "Knowledge of state management solutions like Provider, Bloc, or Riverpod.",
+        "Familiarity with Firebase for backend services (authentication, Firestore, cloud functions).",
+        "Experience in integrating RESTful APIs and third-party libraries.",
+        "Skilled in debugging and optimizing Flutter applications for performance.",
+        "Knowledge of platform-specific integrations (Android/iOS) using Flutter plugins."
+      ]
+    },
+    {
+      "service__title": "Python Development",
+      "descriptions": "",
+      "service_info": [
+        "Strong proficiency in Python for scripting, automation, and backend development.",
+        "Experience with object-oriented programming (OOP) and functional programming paradigms.",
+        "Knowledge of Python libraries like NumPy, Pandas, Matplotlib, and SciPy for data analysis and visualization.",
+        "Familiarity with web scraping using libraries like BeautifulSoup and Scrapy.",
+        "Experience in building CLI tools and automation scripts."
+      ]
+    },
+    {
+      "service__title": "Flask Development",
+      "descriptions": "",
+      "service_info": [
+        "Expertise in building RESTful APIs and web applications using Flask.",
+        "Knowledge of Jinja2 templating for server-side rendering.",
+        "Experience with SQLAlchemy for database management and ORM.",
+        "Familiarity with Flask extensions like Flask-RESTful, Flask-SQLAlchemy, and Flask-JWT.",
+        "Skilled in deploying Flask applications using Gunicorn, Nginx, or Docker.",
+        "Knowledge of WSGI and uWSGI for production deployment."
+      ]
+    },
+    {
+      "service__title": "General Development Skills",
+      "descriptions": "",
+      "service_info": [
+        "Proficient in Git and version control systems.",
+        "Strong understanding of RESTful API design and integration.",
+        "Experience with Agile/Scrum methodologies for project management.",
+        "Knowledge of unit testing and integration testing (e.g., Jest, PyTest, Flutter Test).",
+        "Familiarity with CI/CD pipelines for automated deployment.",
+        "Strong problem-solving and debugging skills."
+      ]
+    },
+    {
+      "service__title": "Database Management",
+      "descriptions": "",
+      "service_info": [
+        "Experience with relational databases like MySQL and PostgreSQL.",
+        "Proficient in NoSQL databases like MongoDB and Firestore.",
+        "Knowledge of database optimization and indexing."
+      ]
+    },
+    {
+      "service__title": "Soft Skills",
+      "descriptions": "",
+      "service_info": [
+        "Strong communication and collaboration skills.",
+        "Ability to work in cross-functional teams.",
+        "Time management and ability to meet deadlines.",
+        "Adaptability to learn new technologies and frameworks."
+      ]
+    }
+  ]
+}

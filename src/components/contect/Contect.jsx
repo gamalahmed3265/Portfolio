@@ -2,7 +2,7 @@ import React from 'react'
 import Send from '../../assets/send'
 import "./contect.css"
 export const Contect = () => {
-    
+
     return (<section className='section contact' id='contact'>
         <h2 className='section__title'>Get in touch</h2>
         <span className="section__subtitle">Contact Me</span>
@@ -14,8 +14,8 @@ export const Contect = () => {
                         <div className="contact__card">
                             <i className="fa-regular fa-envelope contact__card-icon"></i>
                             <h3 className="contac__card-title">Email</h3>
-                            <span className="contac__ca-data">gamalahmmed7264@gmail.com</span>
-                            <a href="mailto:gamalahmmed7264@gmail.com" className='contac__button'>
+                            <span className="contac__ca-data">gamalahmed3265@gmail.com</span>
+                            <a href="mailto:gamalahmed3265@gmail.com" className='contac__button'>
                                 Write me
                                 <i className="fa-solid fa-arrow-right-long contac__button-icon"></i>
                             </a>

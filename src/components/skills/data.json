@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "skills_title": "Frontend developer",
+      "skills": [
+        {
+          "name": "HTML",
+          "level": "Advanced"
+        },
+        {
+          "name": "HTML5",
+          "level": "Advanced"
+        },
+        {
+          "name": "CSS",
+          "level": "Advanced"
+        },
+        {
+          "name": "CSS3",
+          "level": "Advanced"
+        },
+        {
+          "name": "Flexbox & Grid ",
+          "level": "Advanced"
+        },
+        {
+          "name": "SASS",
+          "level": "Advanced"
+        },
+        {
+          "name": "Animations",
+          "level": "Advanced"
+        },
+        {
+          "name": "Media Queries",
+          "level": "Advanced"
+        },
+        {
+          "name": "Bootstrap",
+          "level": "Advanced"
+        },
+        {
+          "name": "Tailwind",
+          "level": "Advanced"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Advanced"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "React.js developer",
+      "skills": [
+        {
+          "name": "JSX",
+          "level": "Advanced"
+        },
+        {
+          "name": "Components",
+          "level": "Advanced"
+        },
+        {
+          "name": "State Management",
+          "level": "Advanced"
+        },
+        {
+          "name": "Component Lifecycle",
+          "level": "Advanced"
+        },
+        {
+          "name": "Event Handling",
+          "level": "Advanced"
+        },
+        {
+          "name": "Hooks",
+          "level": "Advanced"
+        },
+        {
+          "name": "Context API",
+          "level": "Advanced"
+        },
+        {
+          "name": "Router",
+          "level": "Advanced"
+        },
+        {
+          "name": "Forms and Validation",
+          "level": "Advanced"
+        },
+        {
+          "name": "Error Boundaries",
+          "level": "Advanced"
+        },
+        {
+          "name": "Redux",
+          "level": "Advanced"
+        },
+        {
+          "name": "UI Libraries",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Backend developer",
+      "skills": [
+        {
+          "name": "Event-Driven Architecture",
+          "level": "Advanced"
+        },
+        {
+          "name": "NPM",
+          "level": "Advanced"
+        },
+        {
+          "name": "File System",
+          "level": "Advanced"
+        },
+        {
+          "name": "Streams and Buffers",
+          "level": "Advanced"
+        },
+        {
+          "name": "Express.js",
+          "level": "Advanced"
+        },
+        {
+          "name": "RESTful APIs",
+          "level": "Advanced"
+        },
+        {
+          "name": "JWT",
+          "level": "Advanced"
+        },
+        {
+          "name": "CORS",
+          "level": "Advanced"
+        },
+        {
+          "name": "Caching",
+          "level": "Advanced"
+        },
+        {
+          "name": "Compression",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Flutter developer",
+      "skills": [
+        {
+          "name": "Dart",
+          "level": "Advanced"
+        },
+        {
+          "name": "Widgets",
+          "level": "Advanced"
+        },
+        {
+          "name": "Layouts",
+          "level": "Advanced"
+        },
+        {
+          "name": "Navigation",
+          "level": "Advanced"
+        },
+        {
+          "name": "State Management",
+          "level": "Advanced"
+        },
+        {
+          "name": "Material Design",
+          "level": "Advanced"
+        },
+        {
+          "name": "Animations",
+          "level": "Advanced"
+        },
+        {
+          "name": "Theming",
+          "level": "Advanced"
+        },
+        {
+          "name": "Bloc/Cubit",
+          "level": "Advanced"
+        },
+        {
+          "name": "RESTful APIs",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Version Control",
+      "skills": [
+        {
+          "name": "Commands ",
+          "level": "Advanced"
+        },
+        {
+          "name": "GitHub",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Programming Skills",
+      "skills": [
+        {
+          "name": "Data Structures and Algorithms",
+          "level": "Advanced"
+        },
+        {
+          "name": "Problem Solving",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Python",
+      "skills": [
+        {
+          "name": "Core Python",
+          "level": "Advanced"
+        },
+        {
+          "name": "OOP",
+          "level": "Advanced"
+        },
+        {
+          "name": "Libraries",
+          "level": "Advanced"
+        },
+        {
+          "name": "Scripting",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Flask",
+      "skills": [
+        {
+          "name": "Web Development",
+          "level": "Advanced"
+        },
+        {
+          "name": "Database Integration",
+          "level": "Advanced"
+        },
+        {
+          "name": "Templating",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "SQL",
+      "skills": [
+        {
+          "name": "Queries",
+          "level": "Advanced"
+        },
+        {
+          "name": "Indexing and Optimization",
+          "level": "Advanced"
+        },
+        {
+          "name": "Transactions",
+          "level": "Advanced"
+        },
+        {
+          "name": "Stored Procedures",
+          "level": "Advanced"
+        },
+        {
+          "name": "Security",
+          "level": "Advanced"
+        },
+        {
+          "name": "MySQL",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "NoSQL",
+      "skills": [
+        {
+          "name": "Modeling",
+          "level": "Advanced"
+        },
+        {
+          "name": "CRUD",
+          "level": "Advanced"
+        },
+        {
+          "name": "Querying",
+          "level": "Advanced"
+        },
+        {
+          "name": "Indexing",
+          "level": "Advanced"
+        },
+        {
+          "name": "Security",
+          "level": "Advanced"
+        },
+        {
+          "name": "Scalability",
+          "level": "Advanced"
+        },
+        {
+          "name": "MongoDB",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Testing",
+      "skills": [
+        {
+          "name": "Unit Testing",
+          "level": "Advanced"
+        },
+        {
+          "name": "Integration Testing",
+          "level": "Advanced"
+        },
+        {
+          "name": "Mocking",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "skills_title": "Additional Requirements",
+      "skills": [
+        {
+          "name": "APIs",
+          "level": "Advanced"
+        },
+        {
+          "name": "Testing",
+          "level": "Advanced"
+        },
+        {
+          "name": "DevOps Basics",
+          "level": "Advanced"
+        },
+        {
+          "name": "Linux/Unix",
+          "level": "Advanced"
+        }
+      ]
+    }
+  ]
+}

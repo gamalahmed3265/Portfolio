@@ -4,7 +4,7 @@ export const Qualification = () => {
     const [toogleState, setToggleState] = useState(1);
 
     const toggleTap = (index) => {
-        setToggleState(index); 
+        setToggleState(index);
     }
 
     return (<section className='section qualification' id='portfolio'>
@@ -36,11 +36,11 @@ export const Qualification = () => {
                     "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web design</h3>
-                            <span className="qualification__subtitle">Span -Instite</span>
+                            <h3 className="qualification__title">Computer Science</h3>
+                            <span className="qualification__subtitle">FCI Zagazig</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus"></i>
-                                2023 Present
+                                2020 Present
                             </div>
                         </div>
                         <div>
@@ -55,23 +55,23 @@ export const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">Art Director</h3>
-                            <span className="qualification__subtitle">Span -Instite</span>
+                            <h3 className="qualification__title">Frontend</h3>
+                            <span className="qualification__subtitle">Online</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus"></i>
-                                2023 Present
+                                2020 Present
                             </div>
                         </div>
 
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Span -Instite</span>
+                            <h3 className="qualification__title">Backend</h3>
+                            <span className="qualification__subtitle">Online</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus">
                                 </i>
-                                2023 Present
+                                2021 Present
                             </div>
                         </div>
                         <div>
@@ -86,11 +86,11 @@ export const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">UX Expert</h3>
-                            <span className="qualification__subtitle">Span -Instite</span>
+                            <h3 className="qualification__title">Flutter</h3>
+                            <span className="qualification__subtitle">Online</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus"></i>
-                                2023 Present
+                                2022 Present
                             </div>
                         </div>
 
@@ -101,11 +101,11 @@ export const Qualification = () => {
                     "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web design</h3>
-                            <span className="qualification__subtitle">Span -Instite</span>
+                            <h3 className="qualification__title">Projects</h3>
+                            <span className="qualification__subtitle">github</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus"></i>
-                                2023 Present
+                                2022 Present
                             </div>
                         </div>
                         <div>
@@ -120,8 +120,8 @@ export const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">Art Director</h3>
-                            <span className="qualification__subtitle">Span -Instite</span>
+                            <h3 className="qualification__title">Graduated 2023</h3>
+                            <span className="qualification__subtitle">FCI Zagazig</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus"></i>
                                 2023 Present
@@ -131,12 +131,12 @@ export const Qualification = () => {
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Span -Instite</span>
+                            <h3 className="qualification__title">Freelancer</h3>
+                            <span className="qualification__subtitle">Online</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus">
                                 </i>
-                                2023 Present
+                                2024 Present
                             </div>
                         </div>
                         <div>
@@ -151,11 +151,11 @@ export const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">UX Expert</h3>
+                            <h3 className="qualification__title">Software Engineering</h3>
                             <span className="qualification__subtitle">Egypt</span>
                             <div className="qualification__calender">
                                 <i className="fa-regular fa-calendar-minus"></i>
-                                2023 Present
+                                2024 Present
                             </div>
                         </div>
 

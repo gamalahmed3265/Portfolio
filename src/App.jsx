@@ -8,26 +8,26 @@ import { Services } from './components/services/Services';
 import { Qualification } from './components/qualification/Qualification';
 import Testimonial from './components/testimonial/Testimonial';
 import { Contect } from './components/contect/Contect';
-import { Footer } from './components/footer/Footer';
 import { Scrollup } from './components/scrollup/scrollup';
 import { Works } from './components/works/Works';
 import { StyleSwitcher } from './components/styleSwitcher/StyleSwitcher';
-const App=()=>(
+import { Footer } from './components/footer/Footer';
+const App = () => (
     <>
-        <Header/>
+        <Header />
         <main className='main'>
-            <Home/>
-            <About/>
-            <Skills/>
-            <Services/>
-            <Qualification/>
-            <Works/>
-            <Testimonial/>
-            <Contect/>
+            <Home />
+            <About />
+            <Skills />
+            <Services />
+            <Qualification />
+            <Works />
+            <Testimonial />
+            <Contect />
         </main>
-        <Footer/>
-        <Scrollup/>
-        <StyleSwitcher/>
+        <Footer />
+        <Scrollup />
+        <StyleSwitcher />
     </>
 );
 
