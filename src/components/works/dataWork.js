@@ -5,12 +5,18 @@ import doctorImg from "../../assets/works/doctor.png";
 import notesImg from "../../assets/works/notes (2).png";
 import TourismImg from "../../assets/works/Tourism.png";
 import mernImg from "../../assets/works/mern.png";
+import eshope from "../../assets/works/eshope.gif";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
   {
     title: "FrontEnd",
     projects: [
+      {
+        img: eshope,
+        url: "https://eshope-app.vercel.app/",
+        title: "Eshope",
+      },
       {
         img: vPNG,
         url: "https://github.com/gamalahmed3265/mini-Frontend-Projects",
@@ -31,6 +37,11 @@ export default [
   {
     title: "ExpressJS",
     projects: [
+      {
+        img: eshope,
+        url: "https://eshope-app.vercel.app/",
+        title: "Eshope",
+      },
       {
         img: "https://private-user-images.githubusercontent.com/75225936/406926340-6aa898ed-479a-41fa-ae95-dfb3b66246cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgwNzE5MzUsIm5iZiI6MTczODA3MTYzNSwicGF0aCI6Ii83NTIyNTkzNi80MDY5MjYzNDAtNmFhODk4ZWQtNDc5YS00MWZhLWFlOTUtZGZiM2I2NjI0NmNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTI4VDEzNDAzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ4OTZmMTU3NDdiNTJmNzlmM2Y5NDIwODRmYmNjZTNjYzM0OTY2MGZhMDhiMWQzZjJkMzk0ODRlMjE4NjQ4MWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.jx-NfTIsv1HBT_VDuxjzCkKYzZ5HHL0LwFb-Y9S92yE",
         url: "https://github.com/gamalahmed3265/Prisma-PostgresQL-Node.js-Express",
