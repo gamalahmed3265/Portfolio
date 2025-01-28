@@ -11,34 +11,32 @@ import { Contect } from './components/contect/Contect';
 import { Scrollup } from './components/scrollup/scrollup';
 import { Works } from './components/works/Works';
 import { StyleSwitcher } from './components/styleSwitcher/StyleSwitcher';
-import { Footer } from './components/footerCom/Footer';
 import Loading from './components/Loading/Loading';
+import Footer from './components/footerCom/Footer';
 const App = () => {
     const [load, setLoad] = useState(false);
     setTimeout(() => {
         setLoad(true)
     }, 1000);
-    return <>
-        {load ?
-            <>
-                <Header />
-                <main className='main'>
-                    <Home />
-                    <About />
-                    <Skills />
-                    <Services />
-                    <Qualification />
-                    <Works />
-                    <Testimonial />
-                    <Contect />
-                </main>
-                <Footer />
-                <Scrollup />
-                <StyleSwitcher />
+    return load ?
+        <>
+            <Header />
+            <main className=''>
+                <Home />
+                <About />
+                <Skills />
+                <Services />
+                <Qualification />
+                <Works />
+                <Testimonial />
+                <Contect />
+            </main>
+            <Footer />
+            <Scrollup />
+            <StyleSwitcher />
+        </> : <Loading />
 
-            </> : <Loading />
-        }
-    </>
+
 
 }
 

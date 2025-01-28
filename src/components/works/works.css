@@ -81,6 +81,10 @@
     .work__img {
         width: 100%;
     }
+    .works__filter {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (max-width: 350px) {
