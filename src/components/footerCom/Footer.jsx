@@ -25,13 +25,13 @@ export const Footer = () => {
 
                 </ul>
                 <div className="footer__social">
-                    <a href="https://www.facebook.com/gamal.ahmed.hassen/" className='footer__social-icon' target='_blank'>
+                    <a href="https://www.facebook.com/gamalahmed3265/" className='footer__social-icon' target='_blank' rel="noreferrer">
                         <i className="fa-brands fa-square-facebook"></i>
                     </a>
-                    <a href="https://twitter.com/GamalAh74468190" className='footer__social-icon' target='_blank'>
+                    <a href="https://twitter.com/gamalahmmed7264" className='footer__social-icon' target='_blank' rel="noreferrer">
                         <i className="fa-brands fa-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/gamal_ahmed___/?next=%2F" className='footer__social-icon' target='_blank'>
+                    <a href="https://www.instagram.com/gamalahmed3265/#" className='footer__social-icon' target='_blank' rel="noreferrer">
                         <i className="fa-brands fa-instagram"></i>
                     </a>
                 </div>

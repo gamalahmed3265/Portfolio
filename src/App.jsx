@@ -11,7 +11,7 @@ import { Contect } from './components/contect/Contect';
 import { Scrollup } from './components/scrollup/scrollup';
 import { Works } from './components/works/Works';
 import { StyleSwitcher } from './components/styleSwitcher/StyleSwitcher';
-import { Footer } from './components/footer/Footer';
+import { Footer } from './components/footerCom/Footer';
 import Loading from './components/Loading/Loading';
 const App = () => {
     const [load, setLoad] = useState(false);
