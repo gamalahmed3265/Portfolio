@@ -35,7 +35,7 @@ export default [
       {
         img: "https://res.cloudinary.com/dmpqem6np/image/upload/v1742636147/Portfolio/trxg6ryhho323xcnd4tm.png",
         url: "https://food-ordering-app-alpha-steel.vercel.app",
-        title: "Estate",
+        title: "food ordering app",
       },
     ],
   },
