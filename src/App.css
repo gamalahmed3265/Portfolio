@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
-::selection{
+::selection {
   background-color: var(--title-color);
+  color: var(--container-color);
 }
 :root {
   --header-height: 3rem;
@@ -52,12 +53,12 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
-[data-theme="dark"]{
-  --title-color: #E5E5CB;
-  --title-color-dark: #F5E9CF;
-  --text-color: #D5CEA3;
-  --container-color: #3C2A21;
-  --body-color: #1A120B;
+[data-theme="dark"] {
+  --title-color: #e5e5cb;
+  --title-color-dark: #f5e9cf;
+  --text-color: #d5cea3;
+  --container-color: #3c2a21;
+  --body-color: #1a120b;
 }
 
 /* Responsive typography */
