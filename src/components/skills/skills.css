@@ -2,22 +2,29 @@
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
     justify-content: center;
+    user-select: none;
 }
 .skills__content {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 2rem 4rem;
     border-radius: 1.25rem;
+    height: fit-content;
+    overflow: hidden;
+    padding: 2rem 0;
 }
 .skills__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+    padding: 0 4rem;
 }
 .skills_box {
     display: grid;
     row-gap: 1rem;
     grid-template-columns: 1;
+    max-height: 50vh;
+    overflow-y: scroll;
+    padding: 0 4rem;
 }
 .skills_group {
     display: grid;

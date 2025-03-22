@@ -1,5 +1,7 @@
 import React from "react";
 import skillsData from "./data.json";
+import { motion } from "framer-motion";
+import { fadeIn, staggerContainer } from "../motion/motion";
 
 interface Skill {
   name: string;
@@ -17,9 +19,16 @@ const skills: SkillsModel = skillsData;
 
 export const Skillsbody = () => {
   return skills.data.map((e, index) => (
-    <div key={index} className="skills__content">
+    <motion.div
+      key={index}
+      className="skills__content"
+      variants={staggerContainer}
+    >
       <h3 className="skills__title">{e.skills_title}</h3>
-      <div className="skills_box">
+      <motion.div
+        variants={fadeIn("up", "tween", 0.2, 1)}
+        className="skills_box"
+      >
         {e.skills.map((e, index) => (
           <div key={index} className="skills_group">
             <div className="skills_data">
@@ -31,7 +40,7 @@ export const Skillsbody = () => {
             </div>
           </div>
         ))}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   ));
 };

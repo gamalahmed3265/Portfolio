@@ -1,21 +1,23 @@
 
+import { fadeIn, staggerContainer } from "../motion/motion";
 import { Data } from "./Data";
 import { ScrollDown } from "./ScrollDown";
 import { Social } from "./Social";
 import "./home.css";
-const Home=()=>{
+import { motion } from "framer-motion"
+const Home = () => {
     return (
         <section className="home section" id="home">
-            <div className="home_container container grid">
+            <motion.div variants={staggerContainer} className="home_container container grid">
                 <div className="home_content grid">
-                    <Social/>
-                    <div className="home_img">
-                        
-                    </div>
-                    <Data/>
+                    <Social />
+                    <motion.div variants={fadeIn("right", "tween", 0.2, 1)} className="home_img">
+
+                    </motion.div>
+                    <Data />
                 </div>
-                <ScrollDown/>
-            </div>
+                <ScrollDown />
+            </motion.div>
         </section>
     );
 }

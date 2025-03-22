@@ -36,6 +36,8 @@ const Footer = () => {
                     </a>
                 </div>
                 <span className="footer__copy">
+                    <span>Gamal Ahmed</span>
+
                     &#169; Crypticalcoder. All rigths reserved
                 </span>
             </div>

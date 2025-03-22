@@ -1,12 +1,15 @@
 import "./services.css"
 import ServiceContent from './ServiceContent.tsx';
+import { motion } from "framer-motion"
+import { staggerContainer } from "../motion/motion.js";
+
 export const Services = () => {
     return (<section className='section skills' id='service'>
         <h2 className='section__title'>Services</h2>
         <span className="section__subtitle">What i offer</span>
-        <div className="service__container container grid">
+        <motion.div variants={staggerContainer} className="service__container container grid">
             <ServiceContent />
-        </div>
+        </motion.div>
     </section>
     )
 }

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 import servicesData from "./data.json";
+import { fadeIn, staggerContainer } from "../motion/motion";
+import { motion } from "framer-motion";
 
 interface ServiceModel {
   data: {
@@ -20,14 +22,18 @@ const ServiceContent = () => {
   };
 
   return servicesList.data.map((e, index) => (
-    <div key={index} className="service__content">
-      <div>
+    <motion.div
+      key={index}
+      className="service__content"
+      variants={staggerContainer}
+    >
+      <motion.div variants={fadeIn("right", "tween", 0.2, 1)}>
         <i className="fa-solid fa-cake-candles service__icon"></i>
         <h3 className="service__title">
           {/* Product <br /> Designer */}
           {e.service__title}
         </h3>
-      </div>
+      </motion.div>
       <span className="service_button" onClick={() => toggleTap(index + 1)}>
         View More
         <i className="fa-solid fa-arrow-right service_button--icon"></i>
@@ -62,7 +68,7 @@ const ServiceContent = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   ));
 };
 

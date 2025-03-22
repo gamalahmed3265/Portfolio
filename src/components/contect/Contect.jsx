@@ -1,13 +1,17 @@
 import React from 'react'
 import Send from '../../assets/send'
 import "./contect.css"
+import { motion } from "framer-motion"
+import { fadeIn, staggerContainer } from '../motion/motion'
+
 export const Contect = () => {
 
-    return (<section className='section contact' id='contact'>
+    return (<motion.section variants={staggerContainer} className='section contact' id='contact'>
         <h2 className='section__title'>Get in touch</h2>
         <span className="section__subtitle">Contact Me</span>
         <div className="contact__container container grid">
-            <div className="contact__content">
+            <motion.div variants={fadeIn("left", "tween", 0.2, 1)}
+            >
                 <div>
                     <h3 className='contact__title'>Talk to me</h3>
                     <div className='contact__info'>
@@ -41,8 +45,8 @@ export const Contect = () => {
 
                     </div>
                 </div>
-            </div>
-            <div className="contact__content">
+            </motion.div>
+            <motion.div variants={fadeIn("right", "tween", 0.2, 1)} className="contact__content">
                 <div>
                     <h3 className='contact__title'>Write me your project</h3>
 
@@ -71,8 +75,8 @@ export const Contect = () => {
                         </button>
                     </form>
                 </div>
-            </div>
+            </motion.div>
         </div>
-    </section>
+    </motion.section>
     )
 }

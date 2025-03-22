@@ -1,26 +1,26 @@
-.service__container{
-    grid-template-columns: repeat(3,270px);
+.service__container {
+    grid-template-columns: repeat(3, 270px);
     justify-content: center;
     column-gap: 1.8rem;
 }
-.service__content{
+.service__content {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
 }
-.service__icon{
+.service__icon {
     display: block;
     font-size: 2rem;
     color: var(--title-color);
     margin-bottom: var(--mb-1);
 }
-.service__title{
+.service__title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
 }
-.service_button{
+.service_button {
     color: var(--title-color);
     display: inline-flex;
     align-items: center;
@@ -28,15 +28,15 @@
     column-gap: 0.25rem;
     font-size: var(--small-font-size);
 }
-.service_button--icon{
+.service_button--icon {
     transition: 0.3s;
     font-size: 1rem;
 }
-.service_button:hover .service_button--icon{
+.service_button:hover .service_button--icon {
     transform: translateX(00.25rem);
 }
 
-.service_model{
+.service_model {
     position: fixed;
     left: 0;
     right: 0;
@@ -52,14 +52,17 @@
     visibility: hidden;
     transition: 0.3s;
 }
-.service_model-content{
+.service_model-content {
+    background-color: var(--container-color);
     width: 500px;
     position: relative;
-    background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
+    height: 50vh;
+    overflow-y: scroll;
 }
-.service_model-icon-close{
+
+.service_model-icon-close {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -68,68 +71,68 @@
     cursor: pointer;
 }
 .service_model-title,
-.service_model-descriptions{
+.service_model-descriptions {
     text-align: center;
 }
-.service_model-title{
+.service_model-title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
 }
-.service_model-descriptions{
+.service_model-descriptions {
     font-size: var(--small-font-size);
     padding: 0 3.5rem;
     margin-bottom: var(--mb-2);
 }
-.service_model-services{
+.service_model-services {
     row-gap: 0.75rem;
 }
-.service_model-service{
+.service_model-service {
     display: flex;
     align-items: center;
-    column-gap: .5rem;
+    column-gap: 0.5rem;
 }
-.service_model-icon{
+.service_model-icon {
     color: var(--title-color);
     font-size: 1.1rem;
 }
-.service_model-info{
+.service_model-info {
     font-size: var(--small-font-size);
 }
-.active-model{
+.active-model {
     opacity: 1;
     visibility: visible;
 }
 @media screen and (max-width: 992px) {
-    .service__container{
-        grid-template-columns: repeat(3,218px);
+    .service__container {
+        grid-template-columns: repeat(3, 218px);
     }
 }
 @media screen and (max-width: 768px) {
-    .service__container{
-        grid-template-columns: repeat(2,1fr);
+    .service__container {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .service__content{
+    .service__content {
         padding: 3.5rem 0.5rem 1.25rem 1.5rem;
     }
-    .service__icon{
+    .service__icon {
         font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 576px) {
-    .service_model-content{
+    .service_model-content {
         padding: 4.5rem 1.5rem 2.5rem;
     }
-    .service_model-descriptions{
+    .service_model-descriptions {
         padding: 0;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .service__container{
+    .service__container {
         grid-template-columns: max-content;
     }
-    .service__content{
+    .service__content {
         padding-right: 6rem;
     }
 }

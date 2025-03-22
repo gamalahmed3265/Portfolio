@@ -132,12 +132,14 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  font-style: italic;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  font-style: italic;
 }
 
 .section__title,
@@ -226,4 +228,17 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--title-color);
+  border-radius: 10px;
+  overflow: hidden;
 }

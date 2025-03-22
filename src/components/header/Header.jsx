@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import logo from "../../assets/works/logo.png"
 import "./header.css";
+import { motion } from "framer-motion"
+import { headerVariants } from '../motion/motion';
 function whenScrollHeader() {
     let scrollup = document.querySelector(".header");
     if (this.scrollY >= 550) {
@@ -14,7 +16,7 @@ const Header = () => {
     window.addEventListener("scroll", whenScrollHeader);
     const [Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState("#home");
-    return (<header className='header'>
+    return (<motion.header className='header' variants={headerVariants}>
         <nav className='nav container'>
             <a href="index.html" className='nav__logo'>
                 <img src={logo} alt='' width={60} height={60} />
@@ -79,7 +81,7 @@ const Header = () => {
                 <i className="fa-solid fa-list-ul"></i>
             </div>
         </nav>
-    </header>
+    </motion.header>
     );
 }
 

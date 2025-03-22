@@ -1,33 +1,33 @@
-.footer{
+.footer {
     background-color: var(--container-color);
-    border-top: 1px solid rgba(0, 0, 0, 0.1) ;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-.footer__container{
+.footer__container {
     padding: 2rem 0 6rem;
 }
 .footer__title,
-.footer__links{
+.footer__links {
     color: var(--title-color);
 }
-.footer__title{
+.footer__title {
     text-align: center;
     margin-bottom: var(--mb-2);
 }
-.footer__links:hover{
+.footer__links:hover {
     color: var(--title-color-dark);
 }
-.footer__list{
+.footer__list {
     display: flex;
     justify-content: center;
     column-gap: 1.5rem;
     margin-bottom: var(--mb-2);
 }
-.footer__social{
+.footer__social {
     display: flex;
     justify-content: center;
     column-gap: 1.25rem;
 }
-.footer__social-icon{
+.footer__social-icon {
     background-color: var(--title-color);
     color: var(--container-color);
     font-size: 1.125rem;
@@ -35,23 +35,24 @@
     border-radius: 0.5rem;
     display: inline-flex;
 }
-.footer__social-icon{
+.footer__social-icon {
     background-color: var(--title-color-dark);
     transition: 0.3s;
 }
-.footer__social-icon:hover{
-    transform: scale(2);
+
+.footer__social-icon:first-child:hover {
+    background-color: #4267b2;
+    transform: skewX(10deg) scale(1.3);
 }
-.footer__social-icon:first-child:hover{
-    background-color: #4267B2;
+.footer__social-icon:nth-child(2):hover {
+    background-color: #1da1f2;
+    transform: scale(1.5);
 }
-.footer__social-icon:nth-child(2):hover{
-    background-color: #1DA1F2;
+.footer__social-icon:last-child:hover {
+    transform: skewY(10deg) scale(1.3);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
-.footer__social-icon:last-child:hover{
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-.footer__copy{
+.footer__copy {
     display: block;
     margin-top: 4.5rem;
     color: var(--title-color);
@@ -59,7 +60,7 @@
     font-size: var(--small-font-size);
 }
 @media screen and (max-width: 992px) {
-    .footer__social-icon{
+    .footer__social-icon {
         padding: 0.25rem;
         border-radius: 0.25rem;
         font-size: 1rem;
