@@ -33,7 +33,9 @@
 .work__img {
     width: 295px;
     height: 200px;
+    border-radius: 5px;
     border-radius: 1rem;
+    object-fit: contain;
     margin-bottom: var(--mb-1);
 }
 .work__title {

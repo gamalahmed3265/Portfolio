@@ -34,8 +34,13 @@ export default [
       },
       {
         img: "https://res.cloudinary.com/dmpqem6np/image/upload/v1742636147/Portfolio/trxg6ryhho323xcnd4tm.png",
-        url: "https://food-ordering-app-alpha-steel.vercel.app",
-        title: "food ordering app",
+        url: "https://github.com/gamalahmed3265/food-ordering-app",
+        title: "food ordering App Nextjs",
+      },
+      {
+        img: "https://res.cloudinary.com/dmpqem6np/image/upload/v1743517956/Portfolio/1_cdfaek.png",
+        url: "https://github.com/gamalahmed3265/BlogApp-Nextjs-Clerk",
+        title: "BlogApp Nextjs Clerk",
       },
     ],
   },
